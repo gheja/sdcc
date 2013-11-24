@@ -1,0 +1,3 @@
+language: cpp
+install: sudo apt-get -y install gcc g++ gputils make libboost-dev bison flex
+script: cd sdcc; ./configure; make
